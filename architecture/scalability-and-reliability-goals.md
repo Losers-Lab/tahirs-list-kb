@@ -345,7 +345,40 @@ Open questions for the founder:
 
 ---
 
-## 11. References
+## 11. Caching posture (2026-11-08)
+
+**Established by measurement and by the backlog.** There is no application-level
+cache today — no Caffeine/ehcache, no response cache, no response validators. What
+exists is an index, not a cache: `listing_search` is a denormalized projection
+written in the same transaction as the listing, and responses default to
+`Cache-Control: no-store` (only image/certificate proxies opt into
+`public, max-age=86400`).
+
+Measured on the dev stack (public HTTPS endpoint, 2026-11-08):
+
+| Call | Average | What dominates |
+|---|---|---|
+| Coordinate search, 20 results | 24 ms | PostGIS over `listing_search` |
+| Place search ("Toronto") | 474 ms | Photon geocoding (~450 ms) |
+| Listing detail | 13 ms | one indexed read |
+
+So result caching would mostly buy DB headroom, not latency; the one real latency
+win is the geocoder. The backlog already scopes both:
+
+- **SC-198 — `geocoded_addresses` cache table** (epic 196): normalized query hash,
+  checked before `GeocoderPort.geocode()`, no partial write on provider failure. It
+  is behind the shared geocoder port, so REST and MCP both benefit.
+- **SC-199 — quantize search coordinates + cache headers**: rounds 7-decimal input
+  to 3–4 dp so nearby queries share entries; **blocked on founder ratification** of
+  the precision and TTL because it changes `distanceMiles` and radius boundaries.
+
+MCP is POST and its responses are `no-store`, so HTTP caching does not apply to it.
+A **result** cache is not planned. If one is ever added, a TTL alone is not enough:
+the trust target in §5.2 (certified listings reflect approve/deny within 5 s) means
+it must also be invalidated on listing writes and verification transitions, or a
+revoked certificate could keep being advertised.
+
+## 12. References
 
 - `ARCHITECTURE.md` - ratified stack and hosting decision (U-08), geo/search (U-09), reviews (U-10)
 - `docs/handoff/07-current-state-and-risks.md` - R1-R16, the operational risk register
