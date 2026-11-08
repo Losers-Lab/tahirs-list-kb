@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/detail-page
+title: detail-page
+type: note
+---
+
 # Restaurant Detail Page Spec — Tahir's List ("Stamps & Search")
 
 Status: implementation-ready · Matches approved sketch `sketches/007-detail-stamps` · Owner: Fatima

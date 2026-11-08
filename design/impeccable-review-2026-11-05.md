@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/impeccable-review-2026-11-05
+title: impeccable-review-2026-11-05
+type: note
+---
+
 # Impeccable design pass — whole frontend (2026-11-05)
 
 Status: DRAFT for review · Acting specialist: **maryam** (frontend, executing this pass)

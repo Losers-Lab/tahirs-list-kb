@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/sc-157-image-variants
+title: sc-157-image-variants
+type: note
+---
+
 # SC-157 — Restaurant hero images: MinIO storage + width variants (backend)
 
 Status: PINNED contract (backend owner, 2026-08-30)

@@ -1,25 +1,38 @@
 ---
 type: architecture-note
-title: "Scalability and Reliability Goals"
-description: "Capacity model and reliability targets for Tahir's List, benchmarked against public traffic estimates for Zabihah (the closest comparable halal directory), with the scaling ladder and the failure modes that actually bite at each stage."
-tags: [tahirs-list, scalability, reliability, capacity, slo, operations, zabihah, postgis, ktor, sveltekit]
+title: Scalability and Reliability Goals
+description: Capacity model and reliability targets for Tahir's List, benchmarked
+  against public traffic estimates for Zabihah (the closest comparable halal directory),
+  with the scaling ladder and the failure modes that actually bite at each stage.
+tags:
+- tahirs-list
+- scalability
+- reliability
+- capacity
+- slo
+- operations
+- zabihah
+- postgis
+- ktor
+- sveltekit
 status: draft
 generated: 2026-11-07
 generated_by: hamza
 verified: false
 sources:
-  - resource: https://www.crunchbase.com/organization/zabihah/tech_details
-    title: "Crunchbase - Zabihah tech details (monthly visits estimate)"
-  - resource: https://www.siteworthtraffic.com/report/zabihah.com
-    title: "SiteWorthTraffic - zabihah.com estimate (report is roughly 5 years old)"
-  - resource: https://www.similarweb.com/website/zabihah.com/
-    title: "Similarweb - zabihah.com traffic share (absolute figures paywalled)"
-  - resource: https://www.zabihah.com/
-    title: "Zabihah - '60,000+ halal places' first-party claim"
-  - resource: docs/handoff/07-current-state-and-risks.md
-    title: "Current state and risks (R1-R5, R8, R13)"
-  - resource: ARCHITECTURE.md
-    title: "Ratified architecture and hosting decision (U-08)"
+- resource: https://www.crunchbase.com/organization/zabihah/tech_details
+  title: Crunchbase - Zabihah tech details (monthly visits estimate)
+- resource: https://www.siteworthtraffic.com/report/zabihah.com
+  title: SiteWorthTraffic - zabihah.com estimate (report is roughly 5 years old)
+- resource: https://www.similarweb.com/website/zabihah.com/
+  title: Similarweb - zabihah.com traffic share (absolute figures paywalled)
+- resource: https://www.zabihah.com/
+  title: Zabihah - '60,000+ halal places' first-party claim
+- resource: docs/handoff/07-current-state-and-risks.md
+  title: Current state and risks (R1-R5, R8, R13)
+- resource: ARCHITECTURE.md
+  title: Ratified architecture and hosting decision (U-08)
+permalink: tahirs-list-kb/architecture/scalability-and-reliability-goals
 ---
 
 # Scalability and Reliability Goals

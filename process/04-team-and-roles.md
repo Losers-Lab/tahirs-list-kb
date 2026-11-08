@@ -1,19 +1,27 @@
 ---
 type: handoff-document
-title: "04 — Team and Roles"
-description: "The specialist personas that worked on Tahir's List, what each actually owned and delivered, and the known persona debt you inherit."
-tags: [tahirs-list, team, agents, roles, personas, handoff]
+title: 04 — Team and Roles
+description: The specialist personas that worked on Tahir's List, what each actually
+  owned and delivered, and the known persona debt you inherit.
+tags:
+- tahirs-list
+- team
+- agents
+- roles
+- personas
+- handoff
 status: active
 generated: 2026-11-02
 generated_by: adnan
 verified: false
 sources:
-  - resource: ~/.hermes/profiles/*/SOUL.md
-    title: "Agent persona definitions"
-  - resource: AGENTS.md
-    title: "AGENTS — contact/coordination section"
-  - resource: ~/.hermes/kanban/boards/halal-food-finder/kanban.db
-    title: "Task assignee history"
+- resource: ~/.hermes/profiles/*/SOUL.md
+  title: Agent persona definitions
+- resource: AGENTS.md
+  title: AGENTS — contact/coordination section
+- resource: ~/.hermes/kanban/boards/halal-food-finder/kanban.db
+  title: Task assignee history
+permalink: tahirs-list-kb/process/04-team-and-roles
 ---
 
 # 04 — Team and Roles

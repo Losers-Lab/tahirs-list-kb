@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/tahir-brand
+title: tahir-brand
+type: note
+---
+
 # Tahir's List — Brand Direction (mascot & logo)
 
 Status: EXPLORATION → **DIRECTION A PICKED + LOGO DECIDED (founder 2026-08-30)** · Owner: Fatima (design) · Branch: `design/sc-159-tahir-brand`

@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/mobile-bottom-tab
+title: mobile-bottom-tab
+type: note
+---
+
 # Mobile Bottom Tab Bar Spec — Tahir's List ("Stamps & Search")
 
 Status: implementation-ready · Matches approved sketch `sketches/008-stamps-mobile` · Owner: Fatima

@@ -1,21 +1,32 @@
 ---
 type: handoff-document
-title: "02 — Architecture: How Tahir's List Is Built"
-description: "The ratified stack, hexagonal module layout, repository structure, data model, API surface, and the architecture decisions that are settled versus still open."
-tags: [tahirs-list, architecture, backend, frontend, kotlin, ktor, postgis, nextjs]
+title: '02 — Architecture: How Tahir''s List Is Built'
+description: The ratified stack, hexagonal module layout, repository structure, data
+  model, API surface, and the architecture decisions that are settled versus still
+  open.
+tags:
+- tahirs-list
+- architecture
+- backend
+- frontend
+- kotlin
+- ktor
+- postgis
+- nextjs
 status: active
 generated: 2026-11-02
 generated_by: adnan
 verified: false
 sources:
-  - resource: ARCHITECTURE.md
-    title: "ARCHITECTURE — agreed architecture and open decisions"
-  - resource: AGENTS.md
-    title: "AGENTS — containerized execution and engineering rules"
-  - resource: backend/settings.gradle.kts
-    title: "Gradle module graph"
-  - resource: backend/docker-compose.yml
-    title: "Local backing services"
+- resource: ARCHITECTURE.md
+  title: ARCHITECTURE — agreed architecture and open decisions
+- resource: AGENTS.md
+  title: AGENTS — containerized execution and engineering rules
+- resource: backend/settings.gradle.kts
+  title: Gradle module graph
+- resource: backend/docker-compose.yml
+  title: Local backing services
+permalink: tahirs-list-kb/architecture/02-architecture
 ---
 
 # 02 — Architecture

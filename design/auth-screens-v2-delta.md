@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/auth-screens-v2-delta
+title: auth-screens-v2-delta
+type: note
+---
+
 # Auth Screens Reskin Delta — "Stamps & Search" v2 (restyle-only)
 
 Scope: applies the ratified stamps system to the EXISTING auth spec (sections below override `auth-screens.md` M1 visual tokens). **Behavior, fields, error paths, copy, and accessibility logic are UNCHANGED.** Read together with auth-screens.md — that file remains the source of truth for states/errors.

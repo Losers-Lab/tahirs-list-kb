@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/sc-117-verification-seam
+title: sc-117-verification-seam
+type: note
+---
+
 # Verification Provider Seam — hosted AI + human review (sc-117)
 
 > Backend TDD story sc-117 (Sprint 4, epic 112 Trust & Verification). Ratified

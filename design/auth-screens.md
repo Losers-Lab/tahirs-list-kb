@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/auth-screens
+title: auth-screens
+type: note
+---
+
 # Auth Screen Specs — Sign Up (sc-39) & Log In (sc-40)
 
 Consumer: t_514f91af. Tokens: `tokens.md`. Radix/shadcn primitives where applicable (Form = react-hook-form + Radix; Button, Input, Label).

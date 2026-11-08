@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/sc-46-owner-claim
+title: sc-46-owner-claim
+type: note
+---
+
 # Owner Claim + Certification Upload (sc-46)
 
 > Backend TDD story sc-46 (Sprint 4, epic 112 Trust & Verification). Builds the

@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/tokens
+title: tokens
+type: note
+---
+
 # Design Tokens — Tahir's List ("Stamps & Search" v2)
 
 Status: FOUNDER-RATIFIED 2026-08-30 (Option A) · **Rebranded for Tahir's List 2026-08-30** · Owner: Fatima (design) · Consumer: Maryam (implementation)

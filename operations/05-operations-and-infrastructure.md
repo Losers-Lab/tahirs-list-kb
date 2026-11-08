@@ -1,27 +1,38 @@
 ---
 type: handoff-document
-title: "05 — Operations and Infrastructure"
-description: "How the Tahir's List stack actually runs: Docker services, build scripts, deployment paths, cron automation, the current outage, and the production plan that was never executed."
-tags: [tahirs-list, operations, infrastructure, docker, deployment, cloudflare, cron, watchdog]
+title: 05 — Operations and Infrastructure
+description: 'How the Tahir''s List stack actually runs: Docker services, build scripts,
+  deployment paths, cron automation, the current outage, and the production plan that
+  was never executed.'
+tags:
+- tahirs-list
+- operations
+- infrastructure
+- docker
+- deployment
+- cloudflare
+- cron
+- watchdog
 status: active
 generated: 2026-11-02
 generated_by: adnan
 verified: false
 sources:
-  - resource: scripts/backend-test.sh
-    title: "Containerized backend build/test"
-  - resource: scripts/frontend-test.sh
-    title: "Containerized frontend build/test"
-  - resource: scripts/backend-live.sh
-    title: "Live profile backend launcher"
-  - resource: ~/.hermes/profiles/adnan/scripts/hff_watchdog.sh
-    title: "Deploy watchdog backstop"
-  - resource: ~/.hermes/profiles/adnan/scripts/hff_redeploy.sh
-    title: "GitHub webhook redeploy trigger"
-  - resource: ~/.hermes/profiles/adnan/cron/jobs.json
-    title: "Scheduled jobs"
-  - resource: backend/docker-compose.yml
-    title: "Backing services definition"
+- resource: scripts/backend-test.sh
+  title: Containerized backend build/test
+- resource: scripts/frontend-test.sh
+  title: Containerized frontend build/test
+- resource: scripts/backend-live.sh
+  title: Live profile backend launcher
+- resource: ~/.hermes/profiles/adnan/scripts/hff_watchdog.sh
+  title: Deploy watchdog backstop
+- resource: ~/.hermes/profiles/adnan/scripts/hff_redeploy.sh
+  title: GitHub webhook redeploy trigger
+- resource: ~/.hermes/profiles/adnan/cron/jobs.json
+  title: Scheduled jobs
+- resource: backend/docker-compose.yml
+  title: Backing services definition
+permalink: tahirs-list-kb/operations/05-operations-and-infrastructure
 ---
 
 # 05 — Operations and Infrastructure

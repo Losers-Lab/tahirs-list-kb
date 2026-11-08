@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/search-browse
+title: search-browse
+type: note
+---
+
 # Search & Browse Screen Spec — Tahir's List ("Stamps & Search")
 
 Status: implementation-ready · Matches approved sketch `sketches/006-stamps-search` · Owner: Fatima

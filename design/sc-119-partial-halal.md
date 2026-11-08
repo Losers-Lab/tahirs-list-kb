@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/sc-119-partial-halal
+title: sc-119-partial-halal
+type: note
+---
+
 # Partial-Halal Modeling — per-item scope, cross-contamination gate, boolean hand-cut (sc-119)
 
 > Backend modeling story sc-119 (Sprint 4, epic 112 Trust & Verification). The

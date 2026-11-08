@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/sc-73-review-loop
+title: sc-73-review-loop
+type: note
+---
+
 # Verification Committee — Approve/Deny Review Loop (sc-73)
 
 > Backend TDD story sc-73 (Sprint 4, epic 112 Trust & Verification). Builds the

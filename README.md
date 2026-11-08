@@ -1,14 +1,21 @@
 ---
 type: knowledge-bundle-index
-title: "Tahir's List KB"
-description: "Entry point for the Tahir's List knowledge base: product, process, operations, design, QA, security, and research knowledge maintained by AI agents and validated as an OKF v0.2 bundle."
-tags: [tahirs-list, halal-food-finder, knowledge-base, okf]
+title: Tahir's List KB
+description: 'Entry point for the Tahir''s List knowledge base: product, process,
+  operations, design, QA, security, and research knowledge maintained by AI agents
+  and validated as an OKF v0.2 bundle.'
+tags:
+- tahirs-list
+- halal-food-finder
+- knowledge-base
+- okf
 status: active
 sources:
-  - resource: https://github.com/Losers-Lab/tahirs-list
-    title: "Tahir's List implementation repository"
-  - resource: https://github.com/GoogleCloudPlatform/open-knowledge-format
-    title: "OKF specification (v0.2)"
+- resource: https://github.com/Losers-Lab/tahirs-list
+  title: Tahir's List implementation repository
+- resource: https://github.com/GoogleCloudPlatform/open-knowledge-format
+  title: OKF specification (v0.2)
+permalink: tahirs-list-kb/readme
 ---
 
 # Tahir's List KB

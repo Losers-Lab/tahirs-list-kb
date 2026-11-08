@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/design/sc-120-ai-consent
+title: sc-120-ai-consent
+type: note
+---
+
 # Explicit AI-Verification Consent Before Cert Upload (sc-120)
 
 > Backend TDD story sc-120 (Sprint 4, epic 112 Trust & Verification). Privacy:
