@@ -1,21 +1,29 @@
 ---
 type: handoff-document
-title: "07 — Current State and Risks"
-description: "The honest audit: what is broken, stale, unverified, or risky in Tahir's List as of 2026-11-02, with severity and next actions."
-tags: [tahirs-list, risks, audit, technical-debt, state-of-the-system, security]
+title: 07 — Current State and Risks
+description: 'The honest audit: what is broken, stale, unverified, or risky in Tahir''s
+  List as of 2026-11-02, with severity and next actions.'
+tags:
+- tahirs-list
+- risks
+- audit
+- technical-debt
+- state-of-the-system
+- security
 status: active
 generated: 2026-11-02
 generated_by: adnan
 verified: false
 sources:
-  - resource: live system checks (docker, curl, git, sqlite) on 2026-11-02
-    title: "Observed state"
-  - resource: ~/.hermes/kanban/boards/halal-food-finder/kanban.db
-    title: "Blocked card and completion timestamps"
-  - resource: app.shortcut.com/halal-food-finder
-    title: "Workflow state counts and open stories"
-  - resource: ~/.hermes/profiles/omar/SOUL.md
-    title: "Generic persona (debt)"
+- resource: live system checks (docker, curl, git, sqlite) on 2026-11-02
+  title: Observed state
+- resource: ~/.hermes/kanban/boards/halal-food-finder/kanban.db
+  title: Blocked card and completion timestamps
+- resource: app.shortcut.com/halal-food-finder
+  title: Workflow state counts and open stories
+- resource: ~/.hermes/profiles/omar/SOUL.md
+  title: Generic persona (debt)
+permalink: tahirs-list-kb/risks/07-current-state-and-risks
 ---
 
 # 07 — Current State and Risks

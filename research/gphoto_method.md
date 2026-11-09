@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/research/gphoto-method
+title: gphoto_method
+type: note
+---
+
 # Google listing photo extraction — method for subagents
 
 Goal: for the given restaurant **location** (exact address + city), verify it resolves on Google Maps **at that specific address**, then capture a **high-res Google photo reference** suitable as a seed-listing hero image. Do NOT fabricate URLs.

@@ -1,19 +1,27 @@
 ---
 type: handoff-document
-title: "06 — Work Ledger: What Was Actually Built"
-description: "The factual record of completed work: Kanban statistics, timeline by date and owner, what shipped, and what remains unfinished."
-tags: [tahirs-list, ledger, kanban, history, delivery, milestones]
+title: '06 — Work Ledger: What Was Actually Built'
+description: 'The factual record of completed work: Kanban statistics, timeline by
+  date and owner, what shipped, and what remains unfinished.'
+tags:
+- tahirs-list
+- ledger
+- kanban
+- history
+- delivery
+- milestones
 status: active
 generated: 2026-11-02
 generated_by: adnan
 verified: false
 sources:
-  - resource: ~/.hermes/kanban/boards/halal-food-finder/kanban.db
-    title: "Kanban tasks (115 done, 1 blocked, 4 archived)"
-  - resource: git log (223 commits, 2026-08-28 → 2026-09-04)
-    title: "Commit history"
-  - resource: app.shortcut.com/halal-food-finder
-    title: "Epics, stories, iterations, workflow states"
+- resource: ~/.hermes/kanban/boards/halal-food-finder/kanban.db
+  title: Kanban tasks (115 done, 1 blocked, 4 archived)
+- resource: git log (223 commits, 2026-08-28 → 2026-09-04)
+  title: Commit history
+- resource: app.shortcut.com/halal-food-finder
+  title: Epics, stories, iterations, workflow states
+permalink: tahirs-list-kb/work/06-work-ledger
 ---
 
 # 06 — Work Ledger
@@ -169,6 +177,27 @@ full card list is in the Kanban database if you need per-task detail.
 - Seed hero photos manifest (Aisha).
 - Photon geocoder adapter and seed ingestion with TDD (Omar/Hamza).
 - `scripts/generate_seed_migration.py` to generate seed migrations.
+
+## Agent surface (M2), 2026-11-08
+
+**Established** from the merged code and PR #76. The ledger above stops at the
+September Kanban snapshot; this records the later cross-cutting delivery.
+
+- `SC-209` — public, anonymous, read-only **MCP server** at `POST /mcp` inside the
+  Ktor backend: `search_restaurants` and `get_restaurant`, with hand-cut/delivery,
+  cuisine AND/OR, price, rating and paging filters. Stateless Streamable HTTP;
+  per-client rate limit; exact-Origin CORS; DNS-rebinding protection; 16 KiB body
+  cap; sanitized parse errors.
+- Merged in PR #76 (`f6b82d3`) after five specialist review rounds and a founder
+  design approval (PR #73). Evidence at the approved head: 668 backend tests, 667
+  passing, 1 skipped (gated live Photon test).
+- Deployed to dev at `https://mcp-dev.tahirslist.com/mcp`.
+- Process follow-up: PR #77 (`394b6e5`) made specialist convergence **before** owner
+  review a mandatory step.
+
+See [MCP surface](../architecture/mcp-surface.md),
+[MCP deployment](../operations/mcp-deployment.md) and the
+[review record](../reviews/sc-209-mcp-review.md).
 
 ## Timeline of the last week
 

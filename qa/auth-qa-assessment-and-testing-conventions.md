@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/qa/auth-qa-assessment-and-testing-conventions
+title: auth-qa-assessment-and-testing-conventions
+type: note
+---
+
 # QA Assessment: Auth/Accounts (Sprint 1) + Proposed Testing Conventions
 
 **Author:** Yusuf (QA) · **Date:** 2026-08-29 · **Scope:** Create Account (sc-39), Log In (sc-40), frontend Sign Up / Log In UI (sc-39/sc-40 UI work, design tokens sc-116)

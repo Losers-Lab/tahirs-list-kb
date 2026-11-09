@@ -1,19 +1,27 @@
 ---
 type: handoff-document
-title: "09 — References and Glossary"
-description: "Lookup tables: glossary, Shortcut story IDs, file pointers, commands, cron job IDs, URLs, and where to find the detailed documentation."
-tags: [tahirs-list, glossary, references, story-ids, commands, index]
+title: 09 — References and Glossary
+description: 'Lookup tables: glossary, Shortcut story IDs, file pointers, commands,
+  cron job IDs, URLs, and where to find the detailed documentation.'
+tags:
+- tahirs-list
+- glossary
+- references
+- story-ids
+- commands
+- index
 status: active
 generated: 2026-11-02
 generated_by: adnan
 verified: false
 sources:
-  - resource: .
-    title: "Repository root"
-  - resource: app.shortcut.com/halal-food-finder
-    title: "Shortcut workspace"
-  - resource: ~/.hermes/kanban/boards/halal-food-finder/
-    title: "Kanban board data"
+- resource: .
+  title: Repository root
+- resource: app.shortcut.com/halal-food-finder
+  title: Shortcut workspace
+- resource: ~/.hermes/kanban/boards/halal-food-finder/
+  title: Kanban board data
+permalink: tahirs-list-kb/references/09-references-and-glossary
 ---
 
 # 09 — References and Glossary

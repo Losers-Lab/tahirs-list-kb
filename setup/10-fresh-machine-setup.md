@@ -1,28 +1,43 @@
 ---
 type: handoff-document
-title: "10 — Fresh Machine Setup (Docker, from zero)"
-description: "A complete, machine-independent procedure to go from a brand-new computer with nothing installed to a running Tahir's List stack: Docker setup per OS, backing services, backend, frontend, smoke tests, teardown, and troubleshooting."
-tags: [tahirs-list, setup, onboarding, docker, docker-compose, wsl2, macos, linux, postgis, minio, ktor, sveltekit]
+title: 10 — Fresh Machine Setup (Docker, from zero)
+description: 'A complete, machine-independent procedure to go from a brand-new computer
+  with nothing installed to a running Tahir''s List stack: Docker setup per OS, backing
+  services, backend, frontend, smoke tests, teardown, and troubleshooting.'
+tags:
+- tahirs-list
+- setup
+- onboarding
+- docker
+- docker-compose
+- wsl2
+- macos
+- linux
+- postgis
+- minio
+- ktor
+- sveltekit
 status: active
 generated: 2026-11-02
 generated_by: adnan
 verified: false
-audience: "A developer on a computer that has never run this project."
+audience: A developer on a computer that has never run this project.
 sources:
-  - resource: backend/docker-compose.yml
-    title: "PostGIS + MinIO service definitions"
-  - resource: scripts/backend-test.sh
-    title: "Containerized backend build/test"
-  - resource: scripts/frontend-test.sh
-    title: "Containerized frontend build/test"
-  - resource: scripts/backend-live.sh
-    title: "Live-stack backend launcher"
-  - resource: backend/bootstrap/src/main/kotlin/com/tahirslist/bootstrap/config/AppConfig.kt
-    title: "Environment-variable configuration (APP_*)"
-  - resource: scripts/frontend-dev.sh
-    title: "SvelteKit dev server and API proxy target"
-  - resource: AGENTS.md
-    title: "Containerized-execution mandate"
+- resource: backend/docker-compose.yml
+  title: PostGIS + MinIO service definitions
+- resource: scripts/backend-test.sh
+  title: Containerized backend build/test
+- resource: scripts/frontend-test.sh
+  title: Containerized frontend build/test
+- resource: scripts/backend-live.sh
+  title: Live-stack backend launcher
+- resource: backend/bootstrap/src/main/kotlin/com/tahirslist/bootstrap/config/AppConfig.kt
+  title: Environment-variable configuration (APP_*)
+- resource: scripts/frontend-dev.sh
+  title: SvelteKit dev server and API proxy target
+- resource: AGENTS.md
+  title: Containerized-execution mandate
+permalink: tahirs-list-kb/setup/10-fresh-machine-setup
 ---
 
 # 10 — Fresh Machine Setup

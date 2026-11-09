@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/qa/sc-135-auth-test-gap-plan
+title: sc-135-auth-test-gap-plan
+type: note
+---
+
 # sc-135 — Agreed Auth Test-Gap Plan (ranked)
 
 **Author:** Yusuf (QA) · **Date:** 2026-08-30 · **Story:** Shortcut sc-135

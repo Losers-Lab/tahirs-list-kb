@@ -1,21 +1,30 @@
 ---
 type: handoff-document
-title: "01 — Product Vision: What Tahir's List Is"
-description: "The product definition, personas, core model, brand, and the product decisions that were made versus the ones still open."
-tags: [tahirs-list, product, vision, personas, brand, prd]
+title: '01 — Product Vision: What Tahir''s List Is'
+description: The product definition, personas, core model, brand, and the product
+  decisions that were made versus the ones still open.
+tags:
+- tahirs-list
+- product
+- vision
+- personas
+- brand
+- prd
 status: active
 generated: 2026-11-02
 generated_by: adnan
 verified: false
 sources:
-  - resource: README.md
-    title: "README — product overview and personas"
-  - resource: ARCHITECTURE.md
-    title: "ARCHITECTURE — core product model and open questions"
-  - resource: brand/tahir/BRAND-DECISIONS.md
-    title: "Brand decision log (founder-approved)"
-  - resource: app.shortcut.com/halal-food-finder
-    title: "Shortcut — PRD, Use Case Brief Descriptions, Use Case Diagram, prioritization docs"
+- resource: README.md
+  title: README — product overview and personas
+- resource: ARCHITECTURE.md
+  title: ARCHITECTURE — core product model and open questions
+- resource: brand/tahir/BRAND-DECISIONS.md
+  title: Brand decision log (founder-approved)
+- resource: app.shortcut.com/halal-food-finder
+  title: Shortcut — PRD, Use Case Brief Descriptions, Use Case Diagram, prioritization
+    docs
+permalink: tahirs-list-kb/product/01-product-vision
 ---
 
 # 01 — Product Vision

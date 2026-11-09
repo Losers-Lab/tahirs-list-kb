@@ -1,21 +1,29 @@
 ---
 type: handoff-document
-title: "08 — Roadmap and Open Questions"
-description: "What the team hoped to accomplish next: Sprint 6 scope, backlog themes, cost-hardening work, and the product decisions that still require the founder."
-tags: [tahirs-list, roadmap, backlog, shortcut, open-questions, product-decisions]
+title: 08 — Roadmap and Open Questions
+description: 'What the team hoped to accomplish next: Sprint 6 scope, backlog themes,
+  cost-hardening work, and the product decisions that still require the founder.'
+tags:
+- tahirs-list
+- roadmap
+- backlog
+- shortcut
+- open-questions
+- product-decisions
 status: active
 generated: 2026-11-02
 generated_by: adnan
 verified: false
 sources:
-  - resource: app.shortcut.com/halal-food-finder/iteration/191
-    title: "M1 Sprint 6 — Owner Tools: Manage Your Listing"
-  - resource: app.shortcut.com/halal-food-finder
-    title: "Epics and Prioritization backlog"
-  - resource: ARCHITECTURE.md
-    title: "Part 2 — unresolved decisions and open product questions"
-  - resource: ~/.hermes/profiles/adnan/cron/jobs.json
-    title: "Sprint planner prompt (epic scope and planning rules)"
+- resource: app.shortcut.com/halal-food-finder/iteration/191
+  title: 'M1 Sprint 6 — Owner Tools: Manage Your Listing'
+- resource: app.shortcut.com/halal-food-finder
+  title: Epics and Prioritization backlog
+- resource: ARCHITECTURE.md
+  title: Part 2 — unresolved decisions and open product questions
+- resource: ~/.hermes/profiles/adnan/cron/jobs.json
+  title: Sprint planner prompt (epic scope and planning rules)
+permalink: tahirs-list-kb/roadmap/08-roadmap-and-open-questions
 ---
 
 # 08 — Roadmap and Open Questions

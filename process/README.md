@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/process/readme
+title: README
+type: note
+---
+
 # docs/process — ratified process documents
 
 This folder holds team process documents. They are **ratified** when the founder

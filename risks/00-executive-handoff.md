@@ -1,19 +1,25 @@
 ---
 type: handoff-document
-title: "00 — Executive Handoff"
-description: "Adnan's direct handoff: why the async model failed, the honest state of Tahir's List as of 2026-11-02, and the first five actions for the incoming owner."
-tags: [tahirs-list, handoff, executive-summary, state-of-the-system]
+title: 00 — Executive Handoff
+description: 'Adnan''s direct handoff: why the async model failed, the honest state
+  of Tahir''s List as of 2026-11-02, and the first five actions for the incoming owner.'
+tags:
+- tahirs-list
+- handoff
+- executive-summary
+- state-of-the-system
 status: active
 generated: 2026-11-02
 generated_by: adnan
 verified: false
 sources:
-  - resource: docs/handoff/07-current-state-and-risks.md
-    title: "Current state and risks (evidence for claims here)"
-  - resource: docs/handoff/05-operations-and-infrastructure.md
-    title: "Operations and infrastructure"
-  - resource: ~/.hermes/kanban/boards/halal-food-finder/kanban.db
-    title: "Kanban task history (115 done, 1 blocked, 4 archived)"
+- resource: docs/handoff/07-current-state-and-risks.md
+  title: Current state and risks (evidence for claims here)
+- resource: docs/handoff/05-operations-and-infrastructure.md
+  title: Operations and infrastructure
+- resource: ~/.hermes/kanban/boards/halal-food-finder/kanban.db
+  title: Kanban task history (115 done, 1 blocked, 4 archived)
+permalink: tahirs-list-kb/risks/00-executive-handoff
 ---
 
 # 00 — Executive Handoff

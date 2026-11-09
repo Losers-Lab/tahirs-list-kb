@@ -1,3 +1,9 @@
+---
+permalink: tahirs-list-kb/security/auth-security-review-2026-08-29
+title: auth-security-review-2026-08-29
+type: note
+---
+
 # Security Review — Authentication (Sprint 1, `main` @ `de28360`)
 
 **Reviewer:** Omar (Security Engineer) · **Date:** 2026-08-29 · **Scope:** sc-39/sc-40 backend + frontend auth
